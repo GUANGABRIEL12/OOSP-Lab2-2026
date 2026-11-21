@@ -26,7 +26,7 @@ class Solution {
                 ++ptr;
             }
         }
-        for {int i = ptr; i < n; ++i} {
+        for (int i = ptr; i < n; ++i) {
             if (nums[i] == 1) {
                 int temp = nums[i];
                 nums[i] = nums[ptr];
